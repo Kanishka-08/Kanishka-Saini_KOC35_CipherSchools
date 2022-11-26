@@ -13,6 +13,10 @@ b=int(input("Enter the Upper limit: "))
 x=random.randint(a,b)
 print("\n")
 print("Range is (%d,%d) and randomly picked number is %d"%(a,b,x))
+if(x>0):
+    print("%d is an 'Positive' number"%(x))
+else:
+    print("%d is an 'Negative' number"%x)
 if(x%2==0):
     print("%d is an 'Even' number"%(x))
 else:
