@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online Grocery Delivery Services | FRESH.SHOP</title>
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+   } 
+   html{
+    scroll-behavior: smooth;
+
+   }
+   /*navigation bar and images and logo*/
+   #navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(210, 144, 22);
+  
+}
+   #logo{
+    margin: 2px 5px;
+   }
+   #logo img{
+    height: 50px;
+   }
+   #navbar ul{
+    display: flex;
+   }
+   #navbar ul li{
+    list-style: none;
+    font-size: 1 rem;
+   }
+   #navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+   }
+   #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+   }
+   /*section*/
+   #home{
+    display: flex;
+    flex-direction:column
+    ;
+    padding: 3px 200px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background: url(fruits.jpg) no-repeat center center/cover;
+    }
+  #home h1{
+    color: rgb(7, 18, 7);
+  }
+   
+   #home p{
+    text-align: center;
+    font-size: 1.5rem;
+
+   }
+   .heading{
+    font-size: 2.8rem;
+    text-align: center;
+   
+   }
+   .btn{
+    padding: 6px 20px;
+    margin: 17px;
+    border: 2px solid white ;
+    color: white;
+    background-color: green;
+   }
+     /*services*/
+     .h1-primary{ 
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+
+     }
+     h1{
+        font-size: 2rem;
+        text-align: center;
+     }
+    #services{
+        margin: 34px;
+        display: flex;
+        text-align: center;
+    }
+    #services .box{
+        border: 2px solid rgb(7, 133, 7);
+        border-radius: 8px;
+        padding: 34px;
+        margin: 3px 6px;
+        background-color:rgb(221, 228, 221);
+        margin-bottom: 20px;
+
+        
+    }
+    #services  .box img{
+        height: 100px;
+        margin: auto;
+        display: block;
+    }
+    /* Contact Section */
+    #contact{
+        position: relative;
+        background: url(contact.jpg);
+    }
+    #contact-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 34px;
+    }
+    #contact-box input,
+    #contact-box textarea{
+        width:100% ;
+        padding: 0.5rem;
+        border-radius: 9px;
+        font-size: 1.1rem;
+
+
+    }
+    #contact-box form{
+        width: 40%;
+
+    }
+    #contact-box label{
+        font-size: 1.3rem;
+        color: white;
+
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 9px 20px;
+    }
+   
+
+    
+  </style>
+  <link rel="stylesheet" media="screen and (max-width: 1170px)"
+  href="mobile.css">
+</head>
+<body>
+    <nav id="navbar">
+<div id="logo">
+    <img src="logo.jpg" alt="FRESH.SHOP.com">
+</div>
+ <ul>
+ <li class="item"><a href="#home">Home</a></li>
+ <li class="item"><a href="#services">Services</a></li>
+ 
+ <li class="item"><a href="#contact">Contact Us</a></li>
+ </ul>
+ </nav>
+ <section id="home">
+    <h1 class="heading">Welcome to Fresh.Shop</h1>
+    <p><b>One place stop for your daily needs. Low prices from our shelves to yours.</b></p>
+ 
+    <button class="btn">Order Now</button>
+
+ </section>
+
+ <section class="services-container">
+    <h1 class="h1">Our services</h1>
+    <div id="services">
+        <div class="box">
+        <img src="grocery.jpg">
+     <h2 class="h2-secondary">Ration</h2>
+     <p class="text-center">All types of grocery including fruits, vegetables, pulses, wheat, spices,
+        chocolates, biscuits and all you can demand for.</p>
+     </div>
+
+     <div class="box">
+        <img src="meat.jpg">
+     <h2 class="h2-secondary">Meat</h2>
+     <p class="text-center">All types of meat is available, purely fresh and Deliverd within 6 hours of order. Properly packed with hygiene.</p>
+     </div>
+
+
+     <div class="box">
+        <img src="pharma.jpg">
+     <h2 class="h2-secondary">Pharma</h2>
+     <p class="text-center">All types of Doctor prescribed medicines are available with 20 percent discount and fastest delivery </p>
+     </div>
+
+
+
+
+
+    </div>
+
+
+
+
+ </section>
+
+<section id="contact">
+ <h1 class="h1-primary ">Contact Us</h1>
+  <div id="contact-box">
+<form action="">
+    <div class="form-group">
+        <label for="name">Name: </label> 
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+    
+    <div class="form-group">
+    <label for="email">Email: </label> 
+    <input type="email" name="name" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+    <label for="phone">Phone Number: </label>
+    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+    </div>
+
+    <div class="form-group">
+    <label for="message">Message: </label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+   
+    </div>
+
+     
+    </div>
+    
+    </form>
+    
+    </div> 
+</section>
+<footer>
+    <div class="center">
+        Copyright &copy; www.Fresh.shop.com. All rights reserved!
+    </div>
+</footer>
+</body>
+</html>
