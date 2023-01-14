@@ -9,7 +9,7 @@ a=int(input("Enter the Lower limit: "))
 b=int(input("Enter the Upper limit: "))
 x=random.randint(a,b)
 print("\n")
-print("Range is (%d,%d) and randomly picked number is %d"%(a,b,x))
+print("Range is (%d) and randomly picked number is %d"%(b-a,x))
 if(x>0):
     print("%d is an 'Positive' number"%(x))
 else:
